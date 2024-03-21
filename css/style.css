@@ -1,0 +1,147 @@
+:root{
+  --foregroundColor: rgb(247, 111, 33);
+}
+
+div.hero-img{
+  background-image: url("../images/hero_image_nobg_2.png");
+  background-size: cover;
+  background-position: -80px top;
+}
+
+.headline{
+  color: #BDBDBD;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+div.about-section{
+  margin-top: 7rem;
+}
+
+div.about-section>*{
+  flex-grow: 1;
+}
+
+div.aboutText>*{
+  margin-bottom: 2rem;
+}
+
+div.aboutImg{
+  text-align: center;
+}
+
+div.aboutImg>img{
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+div.vision{
+  background-image: linear-gradient(to-right 0,0,0,0.8) url("../../images/vision.JPG");
+}
+
+div.values{
+  background-color: rgb(241, 203, 214);
+}
+
+div.values>div{
+  width: 25%;
+}
+
+div.logo{
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+span.logo-second{
+  background-color: var(--foregroundColor);
+  color: white;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 4px;
+}
+
+a{
+  text-decoration: none;  
+  color: black;
+  padding-inline: 0.8rem;
+}
+
+nav a, nav button{
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+button.call-to-action{
+  background-color: var(--foregroundColor);
+  border: none;
+  padding: 9px 23px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+h2.shout-out{
+  font-size: 3.5em;
+  word-spacing: -3px;
+  font-weight: 700;
+}
+
+div.shout-out-holder{
+  padding-inline-start: 5.8rem;
+}
+
+div.aboutText>p{
+  font-size: 1.2em;
+}
+
+div.aboutText>h3{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+div.aboutText{
+  padding-inline-end: 5.4rem;
+}
+
+div.vision{
+  margin-top: 4.8rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/vision - Copy.JPG");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.vision-inside{
+  padding-block: 6rem 10rem;
+  width: 55%;
+  margin-inline: auto;
+}
+
+div.vision-inside>p{
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+div.vision-inside>h2{
+  font-size: 225%;
+  font-weight: 700;
+}
+
+div.vision-inside svg{
+  fill: var(--foregroundColor);
+  width: 1em;
+  height: 1em;
+}
+
+div.vision-inside  .divider-holder::after, div.vision-inside .divider-holder::before{
+  border-top: 1px solid white;
+  width: 20%;
+  display: block;
+  content: "";
+}
+
+div.divider-holder{
+  margin-block: 1.3rem;
+}
